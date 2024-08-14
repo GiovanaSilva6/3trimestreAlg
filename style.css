@@ -1,0 +1,63 @@
+/* Estilo geral para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Estilo para o cabeçalho */
+header {
+    background-color: #0c82f1;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Estilo para a área principal */
+main {
+    padding: 20px;
+}
+
+.introduction, .steps, .safety-tips {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #0c82f1;
+}
+
+h3 {
+    color: #333;
+}
+
+/* Estilo para a lista ordenada dos passos */
+ol {
+    margin-left: 20px;
+}
+
+ol li {
+    margin-bottom: 10px;
+}
+
+/* Estilo para a lista não ordenada das dicas de segurança */
+ul {
+    margin-left: 20px;
+    list-style-type: disc;
+}
+
+/* Estilo para o rodapé */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
